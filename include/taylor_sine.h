@@ -1,6 +1,13 @@
-#ifndef TAYLOR_SINE
-#define TAYLOR_SINE
+double taylor_sine(double x, int n) {
+  assert(n % 2 != 0); // for det skal være ulige tal
 
-// Add header defintion
+  for (int i = 1; i <= n; i += 2) {
+    x = x * x;
+    int t = 0; 
+    t++; // tælleren
+  }
+  int t;
+  int result = x / t; // regner hele brøken ud
 
-#endif 
+  return -1.0;
+}
