@@ -4,7 +4,7 @@ double taylor_sine(double x, int n) {
 
   for (int i = 1; i <= n; i += 2) {
     x = x * x;
-    t++; // tælleren
+    t++; // nævner
   }
   int result = x / t; // regner hele brøken ud
 
