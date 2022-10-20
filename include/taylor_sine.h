@@ -1,12 +1,7 @@
-double taylor_sine(double x, int n) {
-  assert(n % 2 != 0); // for det skal være ulige tal
-    int t = 0; 
+#pragma once
 
-  for (int i = 1; i <= n; i += 2) {
-    x = x * x;
-    t++; // nævner
-  }
-  int result = x / t; // regner hele brøken ud
+#include <assert.h>
 
-  return -1.0;
-}
+
+double taylor_sine(double x, int n);
+
